@@ -1,0 +1,173 @@
+.login-signup {
+    display: flex;
+    width: 53rem;
+    /* align-items: center;
+    justify-content: center; */
+    /* position: absolute; */
+    margin-top: 4rem;
+    height: 29rem;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+.part-1 {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding-left: 20px;
+    background-color: #FFFBEB;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.part-1 .left-head h2 {
+    font-size: 1.5rem;
+}
+
+.part-1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.part-1 form input {
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 3px 0px;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    padding: 0 8px;
+    margin-top: 12px;
+}
+
+.part-1 form button {
+    width: 8rem;
+    background-color: #FF7000;
+    padding: 4px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.part-1 form button:hover {
+    background-color: #251749;
+}
+
+.part-1 form input {
+    width: 13rem;
+}
+
+.part-1 .forget-password {
+    font-size: 0.5rem;
+    margin: 0.3px 0 12px 0;
+    text-align: center;
+
+}
+
+.part-1 .forget-password a {
+    text-decoration: none;
+    color: gray;
+}
+
+.google-img {
+    width: 10rem;
+    margin-top: 20px;
+    /* border-radius: 122px; */
+}
+
+.part-2 {
+    /* border: 2px solid yellow; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding-left: 20px;
+    /* background-color: #251749;
+     */
+    background: #251749;
+    background: -webkit-linear-gradient(top left, #251749, #263259);
+    background: -moz-linear-gradient(top left, #251749, #263259);
+    background: linear-gradient(to bottom right, #251749, #263259);
+    /* background: rgb(37, 23, 73);
+    background: linear-gradient(217deg, rgba(37, 23, 73, 1) 0%, rgba(255, 112, 0, 1) 41%, rgba(38, 49, 89, 1) 93%); */
+    color: white;
+    border-right: 2px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part-2 h1 {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.part-2 .h3 {
+    font-size: 0.59rem;
+    margin-bottom: 25px;
+}
+
+.part-2 button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 16px;
+    width: 6rem;
+    padding: 4px;
+    margin: 20px 0;
+    cursor: pointer;
+    /* color: #FF7000; */
+}
+
+.part-2 button:hover {
+    width: 6.8rem;
+    /* color: #251749; */
+
+}
+
+.part-2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .part-2 button a:hover{ */
+/* color: #251749; */
+/* } */
+
+
+/* Created with https://www.css-gradient.com */
+/* background: #251749;
+background: -webkit-linear-gradient(top left, #251749, #263259);
+background: -moz-linear-gradient(top left, #251749, #263259);
+background: linear-gradient(to bottom right, #251749, #263259); */
